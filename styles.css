@@ -10,6 +10,7 @@
 }
 
 * {
+    height: fit-content;
     margin: 0px;
     padding: 0px;
     font-family: var(--main-font);
@@ -21,8 +22,6 @@
 body {
     background-color: var(--background-color);
 }
-
-
 
 input,
 label,
@@ -123,8 +122,19 @@ form {
     font-size: 1rem;
     color: whitesmoke;
     padding: 10px;
+    transition: 0.3s;
 }
 
 #submit:hover {
     background-color: rgb(19, 55, 92);
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: whitesmoke;
 }
