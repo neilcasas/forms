@@ -39,6 +39,12 @@ form {
     border-radius: 5px;
 }
 
+input {
+    padding: 0.3rem;
+    color: whitesmoke;
+    background-color: var(--border-color);
+}
+
 label {
     font-family: var(--main-font);
     font-size: 0.8rem;
@@ -98,6 +104,13 @@ form {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .button-wrapper {
