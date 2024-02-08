@@ -3,7 +3,10 @@
 :root {
     --main-font: 'Inter', sans-serif;
     --header-font: 'Bebas Neue', sans-serif;
-    --border-color: rgb(222, 222, 222);
+    --border-color: rgb(37, 37, 37);
+    --background-color: rgb(23, 23, 23);
+    --accent-color: rgb(45, 45, 45);
+    --main-font-color: rgb(150, 149, 149);
 }
 
 * {
@@ -12,10 +15,11 @@
     font-family: var(--main-font);
     font-size: 16px;
     box-sizing: border-box;
+    color: rgb(174, 174, 174);
 }
 
 body {
-    background-color: rgb(246, 246, 246);
+    background-color: var(--background-color);
 }
 
 
@@ -38,7 +42,7 @@ form {
 label {
     font-family: var(--main-font);
     font-size: 0.8rem;
-    color: grey;
+    color: rgb(126, 126, 126);
 }
 
 img {
@@ -56,6 +60,7 @@ img {
     font-family: var(--header-font);
     font-size: 8rem;
     font-weight: 900;
+    color: whitesmoke;
 }
 
 .content {
@@ -75,7 +80,7 @@ form {
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
-    background-color: white;
+    background-color: var(--accent-color);
 }
 
 .main-form {
@@ -105,4 +110,8 @@ form {
     font-size: 1rem;
     color: whitesmoke;
     padding: 10px;
+}
+
+#submit:hover {
+    background-color: rgb(19, 55, 92);
 }
