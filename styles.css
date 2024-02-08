@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Noto+Sans+Mono:wght@500&display=swap');
 
 :root {
-    --main-font: 'Montserrat';
+    --main-font: 'Inter';
     --header-font: 'Bebas Neue';
+    --label-font: 'Noto Sans Mono';
 }
 
 * {
@@ -26,14 +26,19 @@ button {
     font-size: 100%;
     font-family: inherit;
     appearance: none;
-    padding: 3px 5px;
 }
 
 input,
 button,
 form {
     border: 1px solid rgb(205, 205, 205);
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+label {
+    font-family: var(--label-font);
+    font-size: 0.8rem;
+    color: grey;
 }
 
 img {
@@ -47,7 +52,7 @@ img {
 
 .heading {
     font-family: var(--header-font);
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 900;
 }
 
@@ -78,6 +83,7 @@ form {
 
 .main-form>div {
     display: flex;
+    gap: 0.8rem;
 }
 
 .main-form>div>div {
