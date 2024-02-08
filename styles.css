@@ -123,6 +123,7 @@ form {
     color: whitesmoke;
     padding: 10px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 #submit:hover {
