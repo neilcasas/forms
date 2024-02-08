@@ -25,17 +25,17 @@
                         <div class="row1">
                             <div class="first-name-wrapper">
                                 <label for="first_name">FIRST NAME</label>
-                                <input type="text" required name="first_name" id="first_name">
+                                <input type="text" required name="first_name" id="first_name" maxlength="20">
                             </div>
                             <div class="last-name-wrapper">
                                 <label for="last_name">LAST NAME</label>
-                                <input type="text" required name="last_name" id="last_name">
+                                <input type="text" required name="last_name" id="last_name" maxlength="20">
                             </div>
                         </div>
                         <div class="row2">
                             <div class="email-wrapper">
                                 <label for="email">EMAIL</label>
-                                <input type="email" required name="email" id="email">
+                                <input type="email" required name="email" id="email" minlength="4" maxlength="25">
                             </div>
                             <div class="phone-wrapper">
                                 <label for="phone">PHONE</label>
@@ -45,11 +45,11 @@
                         <div class="row3">
                             <div class="pw-wrapper">
                                 <label for="password">PASSWORD</label>
-                                <input type="password" required name="pw" id="pw">
+                                <input type="password" required name="pw" id="pw" minlength="8" maxlength="20">
                             </div>
                             <div class="cpw-wrapper">
                                 <label for="cpw">CONFIRM PASSWORD</label>
-                                <input type="password" required name="cpw" id="cpw">
+                                <input type="password" required name="cpw" id="cpw" minlength="8" maxlength="20">
                             </div>
                         </div>
                     </div>
