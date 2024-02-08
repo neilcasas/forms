@@ -12,7 +12,7 @@
 input,
 label,
 button {
-    font-size: 80%;
+    font-size: 100%;
     font-family: inherit;
     appearance: none;
 }
@@ -38,6 +38,7 @@ img {
 
 .form-wrapper {
     display: flex;
+    flex-direction: column;
 }
 
 form {
@@ -47,4 +48,11 @@ form {
 
 .main-form {
     display: flex;
+}
+
+.first-half,
+.last-half {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
 }
