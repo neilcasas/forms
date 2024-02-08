@@ -5,6 +5,11 @@
     padding: 0px;
     font-family: 'Montserrat';
     font-size: 18px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
 }
 
 
@@ -15,6 +20,14 @@ button {
     font-size: 100%;
     font-family: inherit;
     appearance: none;
+    padding: 3px 5px;
+}
+
+input,
+button,
+form {
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 10px;
 }
 
 img {
@@ -27,23 +40,28 @@ img {
 }
 
 .heading {
-    font-size: 6rem;
+    font-size: 2rem;
     font-weight: 900;
 }
 
 .content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 0.4rem;
 }
 
-.form-wrapper {
+fieldset {
     display: flex;
     flex-direction: column;
+    border: none;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    padding: 1.5rem;
+    background-color: white;
 }
 
 .main-form {
