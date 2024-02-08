@@ -45,6 +45,10 @@ input {
     width: 20rem;
 }
 
+input:valid {
+    border: 1px solid green;
+}
+
 label {
     font-family: var(--main-font);
     font-size: 0.8rem;
@@ -57,7 +61,6 @@ img {
     object-fit: cover;
 }
 
-
 .main {
     display: flex;
 }
@@ -67,6 +70,8 @@ img {
     font-size: 8rem;
     font-weight: 900;
     color: whitesmoke;
+    line-height: 7rem;
+    margin: 3rem 0rem;
 }
 
 .content {
@@ -111,10 +116,6 @@ form {
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
-}
-
-.button-wrapper {
-    margin: 2rem 0rem;
 }
 
 #submit {
