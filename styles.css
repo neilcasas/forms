@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Noto+Sans+Mono:wght@500&display=swap');
 
 :root {
-    --main-font: 'Inter';
+    --main-font: 'Noto Sans Mono';
     --header-font: 'Bebas Neue';
-    --label-font: 'Noto Sans Mono';
 }
 
 * {
@@ -31,7 +30,7 @@ button {
 input,
 button,
 form {
-    border: 1px solid rgb(205, 205, 205);
+    border: 1px solid rgb(233, 233, 233);
     border-radius: 5px;
 }
 
@@ -43,6 +42,8 @@ label {
 
 img {
     height: 100vh;
+    width: 40vw;
+    object-fit: cover;
 }
 
 
@@ -52,8 +53,9 @@ img {
 
 .heading {
     font-family: var(--header-font);
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
+    padding: 20px;
 }
 
 .content {
